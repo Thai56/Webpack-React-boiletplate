@@ -1,0 +1,37 @@
+{
+  "name": "react_search",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec testSetup.js \"src/components/*.spec.js\"",
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "chai": "^4.1.2",
+    "css-loader": "^0.28.11",
+    "enzyme": "^3.3.0",
+    "expect": "^23.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "jsdom": "^11.11.0",
+    "mocha": "^5.2.0",
+    "react-addons-test-utils": "^15.6.2",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.11.1",
+    "webpack-cli": "^3.0.3",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "enzyme-adapter-react-16": "^1.1.1",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  }
+}
